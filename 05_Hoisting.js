@@ -10,8 +10,7 @@ console.log(myName)
 var myName = undefined
 console.log(myName + " soy ese hoisting")
 myName = "Cesar"
-// Imprime : 
-// undefined soy ese hoisting
+// Imprime : "undefined soy ese hoisting"
 // "Cesar" // Imprime el valor de la variable myName en la terminal.
 
 
@@ -22,5 +21,5 @@ function hey() {
 }
 var myName = "Cesar"
 // Imprime :
-// Hey undefined!  // Las funciones se declaran antes de las variables, por eso toma la función pero no la variable aún.
+  // Hey undefined!  // Las funciones se declaran antes de las variables, por eso toma la función pero no la variable aún.
 // undefined   // Es valor por defecto que devuelve al declarar una variable.

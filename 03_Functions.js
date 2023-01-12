@@ -30,6 +30,7 @@ function myFunctionWithParams(a, b) {
 }
 myFunctionWithParams(5, 4)
 
+
 // Ejemplos
 function greetStudent(student) {
     console.log(`Hola ${student}.`)

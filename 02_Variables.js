@@ -1,9 +1,8 @@
 // Los valores se guardan en las variables (espacio en memoria).
 // El ; se utiliza al final de cada línea como buena práctica.
 
-/*
-  var : Creación de una variable.
-*/
+
+//  var : Creación de una variable.
 var name = "David"
 
 var age   // Declarar.
