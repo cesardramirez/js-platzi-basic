@@ -30,3 +30,6 @@ typeof array  // 'object'
 typeof object  // 'object'
 typeof emptyValue1  // 'object' El null lo toma como un object.
 typeof emptyValue2  // 'undefined'
+
+let words = ["Huevo", "Gallina", "Vaca"]
+console.log(typeof words[0] === 'string')  // true

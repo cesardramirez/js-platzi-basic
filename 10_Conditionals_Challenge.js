@@ -1,3 +1,5 @@
+// Versión de piedra-papel-tijera con if-else.
+
 let options = new Map([
     [1, "piedra"],
     [2, "papel"],
