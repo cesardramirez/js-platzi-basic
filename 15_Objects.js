@@ -25,3 +25,17 @@ var newNumbers = numbers["map"](function (elem) {
     return elem * 2
 })
 console.log(newNumbers)  // [ 2, 4, 6 ]
+
+// Constructor
+function carN(brand, model, year) {
+  this.brand = brand;
+  this.model = model;
+  this.year = year;
+}
+
+var newCar1 = new carN("Tesla", "Model 3", 2020);
+var newCar2 = new carN("Tesla", "Model X", 2018);
+var newCar3 = new carN("Toyota", "Corolla", 2019);
+console.log(newCar1);
+console.log(newCar2);
+console.log(newCar3);
