@@ -39,7 +39,7 @@ console.log(fruits)
 
 
 // Iterar elementos del array con funciones.
-// map() : Recorre cada elemento e interactuar con cada uno.
+// map() : Recorre cada elemento e interactua con cada uno. Crea un nuevo array.
 let numbers = [3, 4, 5, 6];
 let multiplier = numbers.map(function(element) {
     return element * 3;  // Cada elemento del array lo múltiplica por 3.
@@ -70,7 +70,7 @@ numbers.map(function(element, index, array) {
 }, 80);  // this : 80. Se puede definir una función callback y que es llamado por defecto en cada elemento del array.
   // Si no se define el this, el valor por defecto es unefined.
 
-// filter() : Obtener elementos según un criterio de búsqueda.
+// filter() : Obtener elementos según un criterio de búsqueda. Crea un nuevo array.
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 var result = words.filter(word => word.length > 6);
 console.log(result);  // ['exuberant', 'destruction', 'present']
