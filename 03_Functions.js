@@ -8,7 +8,7 @@
   A la función si se le define un nombre.
 */
 function myFunction() {
-    return 15
+  return 15
 }
 myFunction()
 
@@ -20,25 +20,25 @@ myFunction()
   Son conocidas también como funciones anónimas ya que no se define un nombre a la función, sólo se está asignando a una variable.
 */
 var myVarFunction = function() {
-    return 15
+  return 15
 }
 myVarFunction()  // Se llama a la variable cómo si fuera una función.
 
 // Parámetros en una función
 function myFunctionWithParams(a, b) {
-    return a + b
+  return a + b
 }
 myFunctionWithParams(5, 4)
 
 
 // Ejemplos
 function greetStudent(student) {
-    console.log(`Hola ${student}.`)
+  console.log(`Hola ${student}.`)
 }
 greetStudent("Diego")  // Hola Diego.
 
 function sum(a, b) {
-    return a + b
+  return a + b
 }
 sum(5, 4)  // 9
 
@@ -50,7 +50,7 @@ Función declarativa:
 */
 saludar('Diego')
 function saludar(nombre) {
-    console.log(`Hola ${nombre}.`)
+  console.log(`Hola ${nombre}.`)
 }
 // Mostrará el 'Hola Diego'
 
@@ -61,6 +61,6 @@ Función de expresión:
 */
 nombre('Diego')
 var nombre = function(nombre) {
-    console.log(`Hola ${nombre}.`)
+  console.log(`Hola ${nombre}.`)
 }
 // Mostrará la excepción : Uncaught TypeError: nombre is not a function.

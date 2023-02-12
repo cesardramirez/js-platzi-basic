@@ -7,22 +7,22 @@ var numberCars = 0;
 let countCars = 0;
 
 function Car(brand, model, year) {
-    this.brand = brand;
-    this.model = model;
-    this.year = year;
+  this.brand = brand;
+  this.model = model;
+  this.year = year;
 }
 
 numberCars = prompt("¿Cuántos autos desea registrar?: ");
 
 while (countCars < numberCars) {
-    let brand = prompt('Marca: ');
-    let model = prompt('Modelo: ');
-    let year = prompt('Año: ');
+  let brand = prompt('Marca: ');
+  let model = prompt('Modelo: ');
+  let year = prompt('Año: ');
 
-    var newCar = new Car(brand, model, year);
-    cars.push(newCar);
+  var newCar = new Car(brand, model, year);
+  cars.push(newCar);
 
-    countCars++;
+  countCars++;
 }
 
 console.log(cars);

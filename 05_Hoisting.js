@@ -17,7 +17,7 @@ myName = "Cesar"
 // Hoisting funciones.
 hey()
 function hey() {
-    console.log(`Hey ${myName}!`)
+  console.log(`Hey ${myName}!`)
 }
 var myName = "Cesar"
 // Imprime :

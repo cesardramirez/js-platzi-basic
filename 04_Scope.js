@@ -7,8 +7,8 @@ var nombre = "Diego"
 
 // INI : Scope Local
 function myFunction() {
-    var apellido = "De Granda"
-    return nombre + " " + apellido
+  var apellido = "De Granda"
+  return nombre + " " + apellido
 }
 // FIN : Scope Local
 // FIN : Scope Global

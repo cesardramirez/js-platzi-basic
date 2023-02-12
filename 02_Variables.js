@@ -14,8 +14,8 @@ elements.length  // 2
 elements[1]  // 'Celular'
 
 var person = {
-    name: "Pedro",
-    age: 30
+  name: "Pedro",
+  age: 30
 }
 person.name  // 'Pedro'
 person.age  // 30

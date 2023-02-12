@@ -39,7 +39,7 @@ console.log(fruits)
 
 
 // Iterar elementos del array con funciones.
-// map() : Recorrer cada elemento e interactuar con él.
+// map() : Recorre cada elemento e interactuar con cada uno.
 let numbers = [3, 4, 5, 6];
 let multiplier = numbers.map(function(element) {
     return element * 3;  // Cada elemento del array lo múltiplica por 3.
@@ -58,15 +58,15 @@ let users = [
 ];
 
 let userFullnames = users.map(function(element) {
-    return `${element.firstName} ${element.lastName}`;
+  return `${element.firstName} ${element.lastName}`;
 })
 
 console.log(userFullnames)  // [ 'Susan Steward', 'Daniel Longbottom', 'Jacob Black' ]
 
 numbers.map(function(element, index, array) {
-    console.log("element: %s, index: %i, array full: %s", element, index, array);
-    // console.log(this)
-    return element;
+  console.log("element: %s, index: %i, array full: %s", element, index, array);
+  // console.log(this)
+  return element;
 }, 80);  // this : 80. Se puede definir una función callback y que es llamado por defecto en cada elemento del array.
   // Si no se define el this, el valor por defecto es unefined.
 

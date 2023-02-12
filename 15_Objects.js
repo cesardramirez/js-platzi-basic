@@ -1,11 +1,11 @@
 // Un objeto tiene tanto atributos (propiedades) como métodos (funciones).
 var car = {
-    brand: "Toyota",
-    model: "Corolla",
-    year: 2020,
-    details: function() {
-        console.log(`Car: ${this.brand} ${this.model} ${this.year}`);  // this: Referencia al propio objeto.
-    }
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2020,
+  details: function() {
+    console.log(`Car: ${this.brand} ${this.model} ${this.year}`);  // this: Referencia al propio objeto.
+  }
 };
 
 console.log(car);  // { brand: 'Toyota', model: 'Corolla', year: 2020 }
@@ -22,7 +22,7 @@ console.log();
 var numbers = [1, 2, 3]
 console.log(numbers["length"])  // 3
 var newNumbers = numbers["map"](function (elem) {
-    return elem * 2
+  return elem * 2
 })
 console.log(newNumbers)  // [ 2, 4, 6 ]
 
